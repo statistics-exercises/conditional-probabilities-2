@@ -2,7 +2,7 @@
 
 In this distribution we are going to sample the distribution sampled by the random variable X that is given below:
 
-![](https://render.githubusercontent.com/render/math?math=P(X=x|Y=y)=\delta(x-0)\textrm{if}\quad\y<0\qquad\P(X=x|Y=y)=\left(1-\frac{1}{y}\right)^{x}\frac{1}{y}\qquad\textrm{otherwise}\qquad\textrm{where}\qquad\P(Y=y)=\binom{n}{y}(1-p)^{n-y}p^y)
+![](https://render.githubusercontent.com/render/math?math=P(X=x|Y=y)=\delta(x-0)\quad\\textrm{if}\quad\y<0\qquad\P(X=x|Y=y)=\left(1-\frac{1}{y}\right)^{x}\frac{1}{y}\qquad\textrm{otherwise}\qquad\textrm{where}\qquad\P(Y=y)=\binom{n}{y}(1-p)^{n-y}p^y)
 
 In these expressions ![](https://render.githubusercontent.com/render/math?math=\delta(x-0)) is the (so-called) Kronecker delta.  This is a function that is 1 when x=0 and is zero everywhere else.  If y<2 X is thus guaranteed to be 0.  For every other value of y X is a geometric random variable with ![](https://render.githubusercontent.com/render/math?math=p=\frac{1}{y}).  The random variable Y meanwhile is a binomial random variable.   
 
